@@ -134,6 +134,7 @@ export interface CreateNotificationBody {
   isWP_WNS?: boolean;
   isAdm?: boolean;
   isChrome?: boolean;
+  global_image?: string;
   channel_for_external_user_ids?: string;
 }
 
